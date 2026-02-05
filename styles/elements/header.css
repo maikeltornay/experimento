@@ -1,7 +1,6 @@
 header{
     display: flex;
     width: 100%;
-    min-width: fit-content;
     height: 10rem;
     padding-bottom: 1.9375rem;
     flex-direction: column;
@@ -12,7 +11,8 @@ header{
 
 .top-bar{
     display: flex;
-    width: 100rem;
+    width: 100%;
+    min-width: fit-content;
     padding: 0.5625rem 9.375rem;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +50,8 @@ header{
 
 .nav{
    display: flex;
-    width: 80.88544rem;
+    width: 100%;
+    min-width: fit-content;
     justify-content: space-between;
     align-items: center;
     margin-block-end: 1.94rem;
