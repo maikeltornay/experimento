@@ -1,5 +1,6 @@
 footer{
     width: 100%;
+    min-width: fit-content;
     display: flex;
     height: 48.625rem;
     padding: 5.5rem 9.5rem;
