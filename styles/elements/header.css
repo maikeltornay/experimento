@@ -57,6 +57,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-block-end: 1.94rem;
+    padding: 0 9rem 0 9.5rem;
 
         .logo-bliss{
         display: inline-flex;
