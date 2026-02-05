@@ -1,0 +1,43 @@
+/* 1. RESET DE ESPACIOS Y CAJAS */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. TIPOGRAFÍA SANS-SERIF Y BASE PLANA */
+html, body {
+  /* Sans-serif moderna por defecto */
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 3. IMÁGENES RESPONSIVE */
+img, picture, video, svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: inherit;
+
+/* 4. LISTAS LIMPIAS */
+ul, ol {
+  list-style: none;
+}
+
+/* 5. EXTRAS BÁSICOS PARA UN DISEÑO "PLANO" */
+a {
+  text-decoration: none;
+  color: inherit; /* El enlace hereda el color del texto, no azul */
+}
+
+button, input, textarea, select {
+  font: inherit; /* Heredan la sans-serif */
+  border: none;
+  background: transparent;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

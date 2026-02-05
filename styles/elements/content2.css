@@ -1,0 +1,86 @@
+.content2{
+    display: flex;
+    padding: 0 9.5rem;
+    flex-direction: column;
+    align-items: center;
+    gap:4.5rem;
+    align-self: stretch;
+}
+.content2__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+            h3{
+                color: #182226;
+                text-align: center;
+                font-family: var(--fuente1);
+                font-size: 3.4375rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 3.78125rem; 
+            }
+            p{
+                width: 39.5rem;
+                color: #414536;
+                text-align: center;
+                font-family: var(--fuente2);
+                font-size: 1.125rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.75rem; 
+            }
+}
+.content2__ul{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    li{
+        display: flex;
+        width: 19.125rem;
+        height: 22.125rem;
+        padding-bottom:3.125rem;
+        flex-direction: column;
+        align-items: center;
+        border-radius:1rem;
+        background: #FFF;
+        box-shadow: 0 4px 24.2px 0 rgba(0, 0, 0, 0.08);
+    }
+}
+.content2__article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+        div{
+            display: flex;
+            padding: 1rem;
+            flex-direction: column;
+            align-items: flex-start;
+            gap:1rem;
+            align-self: stretch;
+        }
+}
+.div-article{
+            p{
+            width: 16rem;
+            color: #2C2F24;
+            font-family:var(--fuente2);
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.625rem; 
+        }
+        time{
+            color: #737865; 
+            font-family: var(--fuente2);
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.25rem;
+
+        }
+}
