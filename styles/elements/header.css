@@ -43,6 +43,9 @@ header{
     list-style: none;
 
 }
+.li__social:hover{
+    cursor: pointer;
+}
 
 .nav{
    display: flex;
