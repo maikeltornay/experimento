@@ -1,6 +1,7 @@
 header{
     display: flex;
-    width: 100rem;
+    width: 100%;
+    min-width: fit-content;
     height: 10rem;
     padding-bottom: 1.9375rem;
     flex-direction: column;
